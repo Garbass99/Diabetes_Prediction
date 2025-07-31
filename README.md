@@ -5,27 +5,27 @@ A machine learning-powered web application that predicts the likelihood of diabe
 <img width="511" height="696" alt="image" src="https://github.com/user-attachments/assets/7b6c3504-ae3b-49f7-8008-53e543507ab3" />
 
 
-📌 Features
-Predicts diabetes risk based on key health metrics
+📌 **Features**
+- Predicts diabetes risk based on key health metrics
 
-Simple, user-friendly interface
+- Simple, user-friendly interface
 
-Fast and 90% accurate predictions
+- Fast and 90% accurate predictions
 
-Built with Streamlit
+- Built with Streamlit
 
 � Key Input Variables
 The model uses the following health parameters for prediction:
 
-Variable	Description	Normal Range
-Pregnancies	Number of pregnancies (0 if not applicable)	0 - 5
-Glucose	Plasma glucose concentration (mg/dL)	70 - 140 mg/dL (fasting)
-BloodPressure	Diastolic blood pressure (mm Hg)	< 80 mm Hg
-SkinThickness	Triceps skinfold thickness (mm) – measures body fat	10 - 40 mm
-Insulin	2-hour serum insulin level (μU/mL)	2 - 25 μU/mL
-BMI	Body Mass Index (kg/m²)	18.5 - 24.9
-DiabetesPedigreeFunction	Genetic diabetes likelihood score	0.08 - 2.42
-Age	Age in years	–
+**Variable	Description	Normal Range**
+- Pregnancies	Number of pregnancies (0 if not applicable)	0 - 5
+- Glucose	Plasma glucose concentration (mg/dL)	70 - 140 mg/dL (fasting)
+- BloodPressure	Diastolic blood pressure (mm Hg)	< 80 mm Hg
+- SkinThickness	Triceps skinfold thickness (mm) – measures body fat	10 - 40 mm
+- Insulin	2-hour serum insulin level (μU/mL)	2 - 25 μU/mL
+- BMI	Body Mass Index (kg/m²)	18.5 - 24.9
+- DiabetesPedigreeFunction	Genetic diabetes likelihood score	0.08 - 2.42
+- Age	Age in years	–
 
 
 
@@ -55,9 +55,9 @@ Accuracy: 66%
 Precision 70% and 51%
 
 
-Dataset: Pima Indians Diabetes Dataset (https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+**Dataset**: Pima Indians Diabetes Dataset (https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
-📂 Project Structure
+📂 **Project Structure**
 text
 diabetes-prediction/
 ├── app.py                # Main application script
